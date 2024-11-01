@@ -1,0 +1,143 @@
+# Copyright (C) 2024 BeautifulPlugins
+# This file is distributed under the GPL v2 or later.
+msgid ""
+msgstr ""
+"Project-Id-Version: SMS Manager 1.0.0\n"
+"Report-Msgid-Bugs-To: https://beautifulplugins.com/support/\n"
+"POT-Creation-Date: 2024-09-16 10:28:23+00:00\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"PO-Revision-Date: 2024-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: en\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-Country: United States\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: "
+"__;_e;_x:1,2c;_ex:1,2c;_n:1,2;_nx:1,2,4c;_n_noop:1,2;_nx_noop:1,2,3c;esc_"
+"attr__;esc_html__;esc_attr_e;esc_html_e;esc_attr_x:1,2c;esc_html_x:1,2c;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Poedit-Bookmarks: \n"
+"X-Textdomain-Support: yes\n"
+"X-Generator: grunt-wp-i18n 1.0.3\n"
+
+#. Plugin Name of the plugin/theme
+msgid "SMS Manager"
+msgstr ""
+
+#: includes/Admin/Admin.php:50
+msgid "You do not have sufficient permissions to access this page."
+msgstr ""
+
+#: includes/Admin/Admin.php:56
+msgid ""
+"Configure the SMS settings to enable SMS notifications. Currently, only "
+"Twilio is supported."
+msgstr ""
+
+#: includes/Admin/Admin.php:80
+msgid "SMS Settings"
+msgstr ""
+
+#: includes/Admin/Admin.php:88
+msgid "Enable SMS Notifications"
+msgstr ""
+
+#: includes/Admin/Admin.php:97
+msgid "Twilio Account SID"
+msgstr ""
+
+#: includes/Admin/Admin.php:106
+msgid "Twilio Auth Token"
+msgstr ""
+
+#: includes/Admin/Admin.php:115
+msgid "Twilio Phone Number"
+msgstr ""
+
+#: includes/Admin/Admin.php:124
+msgid "Text Message"
+msgstr ""
+
+#: includes/Admin/Admin.php:138
+msgid "Configure the SMS settings to enable SMS notifications."
+msgstr ""
+
+#: includes/Admin/Admin.php:152
+msgid "Enable to send SMS notifications."
+msgstr ""
+
+#: includes/Admin/Admin.php:167
+msgid "Enter your Twilio Account SID."
+msgstr ""
+
+#: includes/Admin/Admin.php:181
+msgid "Enter your Twilio Auth Token."
+msgstr ""
+
+#: includes/Admin/Admin.php:195
+msgid "Enter your Twilio Phone Number."
+msgstr ""
+
+#: includes/Admin/Admin.php:209 includes/Handlers/Notifications.php:88
+#: includes/Plugin.php:153
+msgid "Your order#{order_number} is {order_status}. Thank you for shopping with us."
+msgstr ""
+
+#: includes/Admin/Admin.php:213
+msgid ""
+"Enter the text message to be sent. Use the following placeholders: "
+"{total_amount}, {order_number}, {order_date}, {order_status}."
+msgstr ""
+
+#: includes/Handlers/Notifications.php:38
+msgid "Send order SMS to customer"
+msgstr ""
+
+#: includes/Handlers/Notifications.php:55
+msgid ""
+"SMS notification is not enabled. Please configure the SMS settings to send "
+"the SMS notifications."
+msgstr ""
+
+#: includes/Handlers/Notifications.php:129
+#. translators: 1: error message
+msgid "Failed to send SMS notification. Error: %s"
+msgstr ""
+
+#: includes/Handlers/Notifications.php:137
+#. translators: 1: customer phone number
+msgid "SMS notification sent successfully. Customer phone number: %s"
+msgstr ""
+
+#: includes/Handlers/Notifications.php:161
+msgid "Twilio settings are not configured properly."
+msgstr ""
+
+#: includes/Handlers/Notifications.php:197
+#. translators: 1: response code
+msgid ""
+"Failed to send SMS notification. Twilio API returned an error with response "
+"code: %s"
+msgstr ""
+
+#. Plugin URI of the plugin/theme
+msgid "https://beautifulplugins.com/sms-manager/"
+msgstr ""
+
+#. Description of the plugin/theme
+msgid ""
+"SMS Manager for WooCommerce allows you to send SMS notifications to your "
+"customers."
+msgstr ""
+
+#. Author of the plugin/theme
+msgid "BeautifulPlugins"
+msgstr ""
+
+#. Author URI of the plugin/theme
+msgid "https://beautifulplugins.com/"
+msgstr ""

@@ -1,0 +1,36 @@
+{
+  "name": "beautifulplugins/sms-manager",
+  "description": "SMS Manager for WooCommerce allows you to send SMS notifications to your customers.",
+  "homepage": "https://beautifulplugins.com/sms-manager/",
+  "type": "wordpress-plugin",
+  "license": "GPL-2.0-or-later",
+  "prefer-stable": true,
+  "minimum-stability": "dev",
+  "repositories": [],
+  "require-dev": {},
+  "require": {
+    "php": ">=7.4"
+  },
+  "autoload": {
+    "psr-4": {
+      "SMSManager\\": ["includes/"]
+    }
+  },
+  "config": {
+    "optimize-autoloader": true,
+    "sort-packages": true,
+    "allow-plugins": {
+      "composer/*": true,
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    }
+  },
+  "scripts": {
+    "post-install-cmd": [
+      "composer dump-autoload"
+    ],
+    "post-update-cmd": [
+      "composer dump-autoload"
+    ]
+  },
+  "extra": {}
+}
